@@ -1,0 +1,371 @@
+.jp-main{
+    padding:30px 20px;
+    border-bottom:1px solid #d9d9d9;
+}
+.jp-main-left{
+    float:left;
+    font-size: 14px;
+    color:#444;
+    line-height: 26px;
+}
+.jp-main-right{
+    float:left;
+    font-size: 14px;
+    color:#444;
+    line-height: 26px;
+    margin-left:5px;
+    width:940px;
+}
+.jp-video-block{
+    width:460px;
+    margin-right:9px;
+    float:left;
+}
+.jp-photo-block{
+    width:178px;
+    margin-right:10px;
+    height:178px;
+    position: relative;
+    float: left;
+    margin-bottom:10px;
+}
+.jp-photo-block img{
+    width:178px;
+    height:178px;
+}
+.jp-photo-search{
+    position:  absolute;
+    right:0;
+    bottom:0;
+    display: block;
+    width:20px;
+    height:20px;
+    background: url(../images/2018/jp001.png) center center rgb(0,0,0);
+}
+
+.jp-btn{
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    width:68px;
+    height:24px;
+    line-height: 24px;
+    margin-right:10px;
+    background-color: #38a40e;
+    text-align: center;
+}
+.jp-body-block {
+    margin-bottom:10px;
+}
+.jp-body-block-left{
+    float:left;
+    width: 810px;
+    line-height: 24px;
+}
+.jp-body-block-right{
+    float:left;
+    width:63px;
+    margin-left:5px;
+}
+.jp-body-block-right .jp-delete{
+    width: 16px;
+    height:16px;
+    display: block;
+    float:left;
+    margin-right:5px;
+    background: url(../images/2018/jp210.png) center center no-repeat
+}
+.jp-body-block-right .jp-up{
+    width: 16px;
+    height:16px;
+    display: block;
+    float:left;
+    margin-right:5px;
+    background: url(../images/2018/jp211.png) center center no-repeat
+}
+.jp-body-block-right .jp-down{
+    width: 16px;
+    height:16px;
+    display: block;
+    float:left;
+    margin-right:5px;
+    background: url(../images/2018/jp212.png) center center no-repeat
+}
+.jp-body-block .color-green{
+    color:#38a40e;
+    font-weight: bold;
+}
+.jp-body-block-left .jp-img-block{
+    position: relative;
+    width:150px;
+    height:150px;
+    float: left;
+    margin-right:5px;
+}
+.jp-body-block-left .jp-img-block img{
+    width:150px;
+    height:150px;
+}
+.jp-img-block-search{
+    position: absolute;
+    width:21px;
+    height:21px;
+    right:0;
+    bottom:0;
+    background: url(../images/2018/jp201.png) center center no-repeat;
+}
+.small-right-icon .up{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 16px;
+    background: url(../images/2018/jp208.png) center center no-repeat;
+}
+.small-right-icon .down{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 16px;
+    background: url(../images/2018/jp207.png) center center no-repeat;
+}
+.jp-img-block-add{
+    
+    border: 1px dashed #e41c0f;
+    background: url(../images/2018/jp204.png) center 30px no-repeat #ffeceb;
+    
+}
+.jp-img-block-add-text{
+    text-align: center;
+    color:#e41c0f;
+    padding-top:100px;
+}
+.jp-search{
+    width:194px;
+    height: 30px;
+    position: absolute;
+    right: 40px;
+    top:12px;
+    background: white;
+    border: 1px solid #d0d0d0;
+    line-height: 0 !important;
+}
+.jp-search input{
+    width:168px;
+    height:30px;
+    line-height: 30px;
+    background: white;
+    border: 0;
+    padding: 0 5px;
+    outline: none;
+} 
+.jp-search-icon{
+    position: absolute;
+    right: 0;
+    top:0;
+    height:30px;
+    width:30px;
+    background: url(../images/2018/jp213.png) center center no-repeat;
+    display: block;
+}
+.jp-input-block input{
+    font-size: 14px;
+    color: #444;
+    padding: 10px 8px;
+    width: 750px;
+}
+.jp-img-block  .jp-img-move{
+    position: absolute;
+    width:21px;
+    height:21px;
+    right:30px;
+    top:0;
+    background: url(../images/2018/jp203.png) center center no-repeat;
+}
+.jp-img-block  .jp-img-delete{
+    position: absolute;
+    width:21px;
+    height:21px;
+    right:0;
+    top:0;
+    background: url(../images/2018/jp202.png) center center no-repeat;
+}
+.jp-img-block  .jp-img-search{
+    position: absolute;
+    width:21px;
+    height:21px;
+    right:0;
+    bottom:0;
+    background: url(../images/2018/jp201.png) center center no-repeat;
+}
+.jp-video-block{
+    float: left;
+    width: 262px;
+    height: 147px;
+    margin:0 5px 5px 0; 
+    position: relative;
+}
+.jp-video-block img{
+    width: 262px;
+    height: 147px;
+}
+.jp-video-block  .jp-video-move{
+    position: absolute;
+    width:21px;
+    height:21px;
+    right:30px;
+    top:0;
+    background: url(../images/2018/jp203.png) center center no-repeat;
+}
+.jp-video-block  .jp-video-delete{
+    position: absolute;
+    width:21px;
+    height:21px;
+    right:0;
+    top:0;
+    background: url(../images/2018/jp202.png) center center no-repeat;
+}
+.jp-video-block-add  {
+    border: 1px dashed #e41c0f;
+    background: url(../images/2018/jp204.png) center 15px no-repeat #ffeceb;
+    
+}
+.jp-video-block-add-text{
+    text-align: center;
+    color:#e41c0f;
+    padding-top:75px;
+    
+}
+
+.jp-audio-block{
+    background-color: #dcf6f9;
+    border: 1px solid #74d2db;
+    border-radius: 4px;
+    width: 262px;
+    margin-bottom:5px;
+    margin-right:5px;
+}
+.fl{
+    float: left;
+}
+.jp-audio-block-top-text{
+    overflow: hidden;
+    color: #30b1be;
+    padding: 9px 12px;
+    height: 22px;
+    line-height: 26px;
+}
+.jp-audio-block-bottom{
+    padding: 7px 0px 7px 9px;
+}
+.jp-audio-block-top {
+    border-bottom:1px solid #a7e4eb;
+}
+.jp-audio-btn{
+    width: 25px;
+    height:25px;
+    border-radius: 100px;
+    float: left;
+    display: block;
+    background: url(../images/2018/jp301.png) center center no-repeat #4cc0cc;
+}
+.jp-audio-pause{
+    width: 25px;
+    height:25px;
+    border-radius: 100px;
+    display: block;
+    background: url(../images/2018/jp302.png) center center no-repeat #4cc0cc;
+}
+.jp-audio-slider{
+    margin-left:7px;
+    width:168px;
+    border-radius: 100px;
+    background-color: #a7e4eb;
+    height: 8px;
+    float: left;
+    position: relative;
+    margin-top:8px;
+}
+.jp-audio-slider2{
+    padding-right:5px;
+    position:absolute;
+    top:0;
+    left:0;
+    width:157px;
+    height: 5px;
+}
+.jp-audio-slider-inner{
+    width:168px;
+    border-radius: 100px;
+    background-color: #4cc0cc;
+    height: 8px;
+}
+.jp-audio-slider-inner-icon{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: url(../images/2018/jp307.png) center center no-repeat;
+    top:-3px;
+}
+.jp-audio-time{
+    font-size: 12px;
+    margin-left:7px;
+    float: left;
+    margin-top:3px;
+    color: #30b1be;
+}
+.jp-audio-block-top-edit{
+    padding: 4px;
+}
+.jp-audio-input{
+    display: block;
+    border: 1px solid #07d2db;
+    color:#30b1be;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 3px;
+    background-color: #dcf6f9;
+    width: 194px;
+    float: left;
+}
+.jp-audio-input-move{
+    width:22px;
+    height: 22px;
+    float: left;
+    margin-left:3px;
+    background-color: #4cc0cc;
+    background-image: url(../images/2018/jp303.png);
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+.jp-audio-input-delete{
+    width:22px;
+    height: 22px;
+    float: left;
+    margin-left:5px;
+    background-color: #4cc0cc;
+    background-image: url(../images/2018/jp304.png);
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.jp-audio-info{
+    font-size: 12px;
+    color: #30b1be;
+    float: left;
+    margin-left:13px;
+}
+.jp-audio-upload-block{
+    background-color: #fff5f5;
+    border: 1px dashed #f39089;
+    display: block;
+}
+.jp-audio-upload-block-text{
+    height: 70px;
+    line-height: 70px;
+    color: #ebb0ac;
+    font-size: 14px;
+    padding-left:120px;
+    background: url(../images/2018/jp310.png) 90px center no-repeat;
+}

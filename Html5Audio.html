@@ -1,0 +1,34 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>试卷预编辑</title>
+    <link href="http://192.168.100.150:8490/resource/css/2018.css" type="text/css" rel="styleSheet">
+    <link href="http://192.168.100.150:8490/resource/css/2017/reset.css" type="text/css" rel="styleSheet">
+</head>
+<body>
+    <div class="jp-audio-block">
+        <div class="jp-audio-block-top">
+            <div class="jp-audio-block-top-text">音频听力.mp3</div>
+        </div>
+        <div class="jp-audio-block-bottom clearfix">
+            <a id="play" href="#" onclick="newPlay()" class="jp-audio-btn"></a>
+            <a id="pause" href="#" onclick="stop()" style="display:none;" class="jp-audio-btn jp-audio-pause"></a>
+
+            <div id="play_bar" class="jp-audio-slider">
+                <div id="percent" style="width:0%" class="jp-audio-slider-inner"></div>
+                <div class="jp-audio-slider2">
+                    <div id="percent_icon" style="left:00%" class="jp-audio-slider-inner-icon"></div>
+                </div>
+            </div>
+            
+            <div id="t_timer" class="jp-audio-time">150.15</div>
+        </div>
+    </div>
+    <!--dojo.js-->
+    <script type="text/javascript" src="js/audio.prototype1.js"></script>
+    <script type="text/javascript" src="js/audio1.js"></script>
+</body>
+
+</html>
